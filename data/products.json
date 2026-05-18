@@ -1,0 +1,62 @@
+[
+  {
+    "id": "KC001",
+    "name": "Baby Car Seat",
+    "category": "carseat",
+    "price": "LKR 18,500",
+    "image": "assets/images/carseat.jpg",
+    "stock": "In Stock",
+    "badge": "Popular",
+    "description": "Comfortable and safe baby car seat for everyday travel."
+  },
+  {
+    "id": "KC002",
+    "name": "Feeding Chair",
+    "category": "feeding-chair",
+    "price": "LKR 12,500",
+    "image": "assets/images/feeding-chair.jpg",
+    "stock": "In Stock",
+    "badge": "New Arrival",
+    "description": "Practical feeding chair designed for comfort and easy cleaning."
+  },
+  {
+    "id": "KC003",
+    "name": "Baby Walker",
+    "category": "walker",
+    "price": "LKR 9,800",
+    "image": "assets/images/walker.jpg",
+    "stock": "In Stock",
+    "badge": "Best Pick",
+    "description": "A cute and supportive walker for little explorers."
+  },
+  {
+    "id": "KC004",
+    "name": "Baby Swing",
+    "category": "swing",
+    "price": "LKR 14,900",
+    "image": "assets/images/swing.jpg",
+    "stock": "In Stock",
+    "badge": "Trending",
+    "description": "Soft and cozy baby swing for relaxing moments."
+  },
+  {
+    "id": "KC005",
+    "name": "Soft Baby Quilt",
+    "category": "quilt",
+    "price": "LKR 3,500",
+    "image": "assets/images/quilt.jpg",
+    "stock": "In Stock",
+    "badge": "Soft Choice",
+    "description": "Gentle and cozy quilt for babies and toddlers."
+  },
+  {
+    "id": "KC006",
+    "name": "Baby Cot",
+    "category": "cot",
+    "price": "LKR 22,000",
+    "image": "assets/images/cot.jpg",
+    "stock": "In Stock",
+    "badge": "Premium",
+    "description": "Elegant baby cot for safe and peaceful sleep."
+  }
+]

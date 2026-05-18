@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>FAQ | Kids & Co</title>
+
+  <link rel="icon" href="assets/favicon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="navbar"></div>
+
+  <main>
+    <section class="faq-hero">
+      <div class="container faq-hero-box">
+        <span class="section-tag">FAQ</span>
+        <h1>Questions Parents Usually Ask</h1>
+        <p>Find quick answers about ordering, WhatsApp inquiries, delivery, stock, and product details.</p>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="container faq-wrapper">
+
+        <div class="faq-card">
+          <button class="faq-question">
+            How do I place an order?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Browse products, add items to cart, then click “Inquire on WhatsApp”. We’ll confirm availability, final price, and delivery details.</p>
+          </div>
+        </div>
+
+        <div class="faq-card">
+          <button class="faq-question">
+            Do you have online payment?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Not yet. For now, orders are handled through WhatsApp inquiry. Payment and delivery details will be confirmed manually.</p>
+          </div>
+        </div>
+
+        <div class="faq-card">
+          <button class="faq-question">
+            Can I ask about one product directly?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. Each product has an inquiry button with the product ID, so you can message us quickly about that specific item.</p>
+          </div>
+        </div>
+
+        <div class="faq-card">
+          <button class="faq-question">
+            How do I know if a product is available?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Stock status is shown on the website, but final availability is confirmed through WhatsApp before purchase.</p>
+          </div>
+        </div>
+
+        <div class="faq-card">
+          <button class="faq-question">
+            Do you deliver?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Delivery options depend on your location. Message us on WhatsApp with your products and location to confirm delivery details.</p>
+          </div>
+        </div>
+
+        <div class="faq-card">
+          <button class="faq-question">
+            Can I reserve a product?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Reservation depends on product availability. Please contact us through WhatsApp with the product ID.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="faq-cta">
+      <div class="container faq-cta-box">
+        <h2>Still Have a Question?</h2>
+        <p>Message us directly and we’ll help you choose the right item.</p>
+        <a href="https://wa.me/947XXXXXXXX" target="_blank" class="btn whatsapp">Chat on WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="js/app.js"></script>
+
+  <script>
+    const faqButtons = document.querySelectorAll(".faq-question");
+
+    faqButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const card = button.parentElement;
+        card.classList.toggle("active");
+      });
+    });
+  </script>
+</body>
+</html>

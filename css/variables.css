@@ -1,0 +1,19 @@
+:root {
+  --primary: #6f9f90;
+  --secondary: #dfeee8;
+  --accent: #4e7f79;
+  --bg: #f7f5f2;
+  --card: #ffffff;
+  --text: #2f3a38;
+  --muted: #7b8782;
+  --border: #e8ece9;
+  --shadow: 0 16px 40px rgba(79, 110, 102, 0.08);
+
+  --radius-xl: 28px;
+  --radius-lg: 22px;
+  --radius-md: 18px;
+  --radius-sm: 12px;
+
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Poppins", sans-serif;
+}

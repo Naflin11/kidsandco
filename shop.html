@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Shop | Kids & Co</title>
+
+  <link rel="icon" href="assets/favicon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="navbar"></div>
+
+  <main>
+    <section class="shop-hero">
+      <div class="container">
+        <h1>Shop Kids & Co</h1>
+        <p>Browse soft, safe, and stylish essentials for babies and kids.</p>
+      </div>
+    </section>
+
+    <section class="shop-section">
+      <div class="container">
+        <div class="shop-controls">
+          <button class="filter-btn active" data-category="all">All</button>
+          <button class="filter-btn" data-category="carseat">Car Seats</button>
+          <button class="filter-btn" data-category="feeding-chair">Feeding Chairs</button>
+          <button class="filter-btn" data-category="walker">Walkers</button>
+          <button class="filter-btn" data-category="swing">Swings</button>
+          <button class="filter-btn" data-category="quilt">Quilts</button>
+          <button class="filter-btn" data-category="cot">Cots</button>
+        </div>
+
+        <div class="products-grid" id="shop-products"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="js/app.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/products.js"></script>
+</body>
+</html>
