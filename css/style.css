@@ -2281,3 +2281,104 @@ section {
     scrollbar-width: none;
   }
 }
+/* =========================
+   MOBILE SHOP STYLE NAVBAR
+========================= */
+.mobile-shop-navbar {
+  display: grid !important;
+  grid-template-columns: 42px 42px 1fr 42px 42px;
+  align-items: center !important;
+  gap: 12px !important;
+  padding: 14px 16px !important;
+}
+
+.icon-btn {
+  width: 42px;
+  height: 42px;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  font-size: 1.55rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-logo {
+  width: 145px !important;
+  height: auto !important;
+  object-fit: contain;
+  border-radius: 0 !important;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  width: 19px;
+  height: 19px;
+  background: #111;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 0.72rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-link-row {
+  display: flex !important;
+  justify-content: center;
+  gap: 28px;
+  padding: 0 16px 16px;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Mobile scrollable links */
+@media (max-width: 700px) {
+  body {
+    padding-top: 128px !important;
+  }
+
+  .site-header {
+    background: rgba(255, 255, 255, 0.96) !important;
+  }
+
+  .mobile-shop-navbar {
+    width: 100% !important;
+    min-width: 100% !important;
+  }
+
+  .brand-logo {
+    width: 130px !important;
+  }
+
+  .mobile-link-row {
+    justify-content: flex-start;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 22px;
+    padding: 0 16px 14px;
+  }
+
+  .mobile-link-row::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mobile-link-row {
+    scrollbar-width: none;
+  }
+}
