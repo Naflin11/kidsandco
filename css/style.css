@@ -2319,3 +2319,79 @@ section {
     box-shadow: 0 14px 35px rgba(46, 58, 56, 0.22);
   }
 }
+/* =========================
+   FINAL MOBILE NAV + CART FIX
+========================= */
+@media (max-width: 700px) {
+  body {
+    padding-top: 150px !important;
+  }
+
+  .navbar {
+    display: flex !important;
+    justify-content: center !important;
+    padding: 14px 0 8px !important;
+  }
+
+  .brand {
+    justify-content: center !important;
+    width: 100% !important;
+  }
+
+  .brand-logo {
+    width: 155px !important;
+  }
+
+  .brand-text,
+  .nav-actions {
+    display: none !important;
+  }
+
+  .nav-links {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+
+    gap: 30px !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+
+    padding: 12px 18px 18px !important;
+    white-space: nowrap !important;
+    scrollbar-width: none !important;
+  }
+
+  .nav-links::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .nav-link {
+    flex: 0 0 auto !important;
+    font-size: 1.05rem !important;
+    white-space: nowrap !important;
+  }
+
+  .floating-cart {
+    display: flex !important;
+    position: fixed !important;
+    right: 18px !important;
+    bottom: 82px !important;
+    z-index: 9999 !important;
+
+    width: 66px !important;
+    height: 66px !important;
+    border-radius: 50% !important;
+
+    background: #25d366 !important;
+    color: #ffffff !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    font-size: 1.7rem !important;
+    box-shadow: 0 16px 38px rgba(37, 211, 102, 0.35) !important;
+  }
+}
